@@ -49,5 +49,11 @@ grafo = [[1, 1, 0, 1],
          [0, 1, 1, 0], 
          [0, 0, 1, 1], 
          [0, 0, 0, 1]] 
-  
+print("Matriz dada")
+print(grafo[0])
+print(grafo[1])
+print(grafo[2])
+print(grafo[3])
+
+print("cierre transitivo")
 g.cierre_transitivo(grafo) 
